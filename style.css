@@ -1,0 +1,209 @@
+
+header{
+    background-image: url("Eléments/logos_icones/icone_groupe.jpg");
+    height: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.recherche{
+    background-color: midnightblue;
+    color: grey;
+    border-radius: 15px;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    height: 2rem;
+    width: 16rem;
+}
+.b_recher{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 15px;
+    height: 2rem;
+    width: 8rem;
+    cursor: pointer;
+}
+.sous_menu{
+	display: none;
+    margin: 0;
+ }
+.menu_principale li:hover .sous_menu{
+	display: block;
+}
+ ul{
+    margin-top: 0rem;
+    margin-left: 85%;
+	list-style: none;
+	padding: 0;
+	width: 8rem;
+    height: 4rem;	
+}
+.sous_menu li{
+	background-color: orange;
+	width: 16rem;
+	height: 3rem;
+}
+.sous_menu li:hover{
+	background-color: #1F618D;
+	color: aqua;
+}
+li{
+	background-color: rgb(11, 161, 124);
+	color: black;
+    height: 3rem;
+    width: 16rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem; 
+}
+.b4{
+    text-align: center;
+      width: 12rem;
+      height: 2rem;
+      background-color: rgb(52, 21, 139);
+      color: white;
+      font-size: 1rem;
+      border: none;
+      margin-top: 2rem;
+      cursor: pointer;
+  }
+  .b2{
+    text-align: center;
+      width: 8rem;
+      height: 2rem;
+      background-color: rgb(85, 136, 3);
+      color: white;
+      font-size: 1rem;
+      border: none;
+      margin-top: 5px;
+      cursor: pointer;
+  }
+  .margin_top{
+    margin-top: 4rem;
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 50%;
+  }
+.center img{
+    width: 16rem;
+    height: 16rem;   
+}
+.center{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.center ul,li{
+    align-items: center;
+}
+.background{
+    background-image: url("Eléments/logos_icones/icone_groupe2.webp");
+    height: 16rem; 
+}
+main{
+    display: grid;
+    grid-template-columns: 20% 55% 20%;
+    gap: 10px
+}
+.left{
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 8rem;
+}
+.right{
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 8rem;
+}
+.principale{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    gap: 20px;
+    background-color: blueviolet;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.left img{
+    width: 16rem;
+    height: 16rem;
+}
+section{
+    display: grid;
+    grid-template-rows: auto;
+}
+.principale img{
+    width: 12rem;
+    height: 12rem;
+}
+.pub img{
+    width: 8rem;
+    height: 8rem;
+}
+.decal{
+    margin-left: 12rem;
+}
+@media screen and (max-width: 600px) {
+    .margin_top{
+        display: none;
+    }
+    
+    header {  
+        height: 6rem; 
+        padding-top: 1rem;
+        padding-bottom: 1rem;  
+    }
+    .menu_principale{
+        display: inline-block;
+        margin-left: 2rem;
+        margin-top: 0rem;
+        position: relative;
+        width: 12rem;
+    }
+    .recherche {
+        margin-left: 3rem; 
+        width: 80%; 
+    }
+    .b_recher {
+        margin-left: 8rem; 
+        width: 6rem;
+        cursor: pointer;
+    }
+     .center img {
+        margin-top: 3rem;
+        width: 12rem; 
+        height: 12rem; 
+    } 
+    .principale {
+        display: grid;
+        grid-template-columns: 100%; 
+        padding-left: 5px; 
+        padding-right: 5px; 
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+        margin-left: 2rem;   
+    }
+    .principale img{
+        width:100%;
+        height: 12rem;
+    }
+    .b4{
+        text-align: center;
+          width: 100%;
+          height: 2rem;
+          background-color: rgb(52, 21, 139);
+          color: white;
+          font-size: 1rem;
+          border: none;
+          margin-top: 2rem;
+          cursor: pointer;
+    }
+    .decal{
+        margin-left: 0rem;
+    }
+    section{
+        display: grid;
+        grid-template-rows: 60%;
+    }
+}
