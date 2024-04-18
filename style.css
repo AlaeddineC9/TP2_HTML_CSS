@@ -23,13 +23,13 @@ header{
     cursor: pointer;
 }
 .sous_menu{
-	display: none;
+	display: none; 
     margin: 0;
  }
 .menu_principale li:hover .sous_menu{
 	display: block;
 }
- ul{
+ul{
     margin-top: 0rem;
     margin-left: 85%;
 	list-style: none;
