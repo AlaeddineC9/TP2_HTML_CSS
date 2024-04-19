@@ -144,6 +144,9 @@ section{
 .decal{
     margin-left: 12rem;
 }
+.menu_principale_tel{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .margin_top{
         display: none;
@@ -155,7 +158,7 @@ section{
         padding-bottom: 1rem;  
     }
     .menu_principale{
-        display: inline-block;
+        display: none;
         margin-left: 2rem;
         margin-top: 0rem;
         position: relative;
@@ -206,4 +209,24 @@ section{
         display: grid;
         grid-template-rows: 60%;
     }
+   
+.menu_principale_tel{
+    display: block;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    position: relative;
+}
+li{
+	background-color:white;
+	color: black;
+    height: 3rem;
+    width: 16rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem; 
+}
+
+.menu_principale_tel li:hover .sous_menu{
+	display: block;
+}
 }
